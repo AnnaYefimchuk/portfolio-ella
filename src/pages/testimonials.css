@@ -104,8 +104,23 @@
     .testimonialsBlockElement {
         padding: 15px;
         background-color: #9EA857;
-        height: 440px;
-        width: 340px;
+        height: 420px;
+        width: 320px;
+        border-radius: 5px;
+    }
+
+    .testimonialsBlockElement:hover {
+        background-color: #B5B758;
+    }
+}
+
+@media screen and (max-width:380px) {
+
+    .testimonialsBlockElement {
+        padding: 15px;
+        background-color: #9EA857;
+        height: 400px;
+        width: 300px;
         border-radius: 5px;
     }
 

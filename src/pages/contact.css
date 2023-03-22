@@ -1,11 +1,11 @@
-
 @media screen and (min-width:1025px) {
-    .contactInfoLeftP{
+    .contactInfoLeftP {
         width: 400px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
+
     .contactInfoLeft {
         display: flex;
         flex-direction: column;
@@ -21,7 +21,7 @@
         flex-wrap: wrap;
         gap: 30px;
     }
-    
+
     .contactInfoRight {
         display: flex;
         flex-direction: column;
@@ -31,7 +31,7 @@
         border-radius: 5px;
         padding: 15px;
     }
-    
+
     .contactInfoRight input,
     textarea {
         margin: 10px;
@@ -41,26 +41,26 @@
         border-radius: 5px;
         font-family: inherit;
     }
-    
+
     .contactInfoRigrtP {
         margin-left: 15px;
         padding: 0px;
         width: 250px;
         font-family: inherit;
     }
-    
+
     textarea[name="message"] {
         height: 120px;
         width: auto;
         box-sizing: border-box;
         resize: none;
     }
-    
+
     input:focus,
     textarea:focus {
         outline-color: rgb(159, 175, 16);
     }
-    
+
     .btnToTheLessons {
         appearance: none;
         background-color: #A7B066;
@@ -83,16 +83,16 @@
         will-change: transform;
         margin: 10px;
     }
-    
+
     .btnToTheLessons:disabled {
         pointer-events: none;
     }
-    
+
     .btnToTheLessons:hover {
         box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
         transform: translateY(-2px);
     }
-    
+
     .btnToTheLessons:active {
         box-shadow: none;
         transform: translateY(0);
@@ -100,12 +100,13 @@
 }
 
 @media screen and (max-width:1024px) {
-    .contactInfoLeftP{
+    .contactInfoLeftP {
         width: 370px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
+
     .contactInfoLeft {
         display: flex;
         flex-direction: column;
@@ -121,7 +122,7 @@
         flex-wrap: wrap;
         gap: 30px;
     }
-    
+
     .contactInfoRight {
         display: flex;
         flex-direction: column;
@@ -131,7 +132,7 @@
         border-radius: 5px;
         padding: 15px;
     }
-    
+
     .contactInfoRight input,
     textarea {
         margin: 10px;
@@ -141,26 +142,26 @@
         border-radius: 5px;
         font-family: inherit;
     }
-    
+
     .contactInfoRigrtP {
         margin-left: 15px;
         padding: 0px;
         width: 250px;
         font-family: inherit;
     }
-    
+
     textarea[name="message"] {
         height: 120px;
         width: auto;
         box-sizing: border-box;
         resize: none;
     }
-    
+
     input:focus,
     textarea:focus {
         outline-color: rgb(159, 175, 16);
     }
-    
+
     .btnToTheLessons {
         appearance: none;
         background-color: #A7B066;
@@ -183,16 +184,16 @@
         will-change: transform;
         margin: 10px;
     }
-    
+
     .btnToTheLessons:disabled {
         pointer-events: none;
     }
-    
+
     .btnToTheLessons:hover {
         box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
         transform: translateY(-2px);
     }
-    
+
     .btnToTheLessons:active {
         box-shadow: none;
         transform: translateY(0);
@@ -202,9 +203,10 @@
 
 @media screen and (max-width:800px) {
 
-    .contactInfoLeftP{
+    .contactInfoLeftP {
         width: 400px;
     }
+
     .contactInfoLeft,
     .contactInfoLeftP {
         display: flex;
@@ -214,6 +216,9 @@
 }
 
 @media screen and (max-width:420px) {
+    .contactInfoLeftP {
+        width: 340px;
+    }
 
     .contactInfoLeft,
     .contactInfoLeftP {
