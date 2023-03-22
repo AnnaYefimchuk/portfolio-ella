@@ -9,11 +9,7 @@ export function Home() {
         <>
             <div className="homeBlock">
             </div>
-
             <AboutAuthor name="Про мене" classNames="btnToTheLessons" />
-
-            <div className="basicBlock">  
-            </div>
             <Services />
             <Testimonials/>
             <Contact />
