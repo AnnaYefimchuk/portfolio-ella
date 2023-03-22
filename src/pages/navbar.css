@@ -1,0 +1,373 @@
+@media screen and (min-width:1431px) {
+  .firstHeader {
+    padding: 10px;
+    background-color: rgb(193, 201, 181);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .logo {
+    height: 30px;
+    width: 30px;
+  }
+
+  .logo:hover {
+    filter: invert(100%);
+  }
+
+  a {
+    color: rgb(0, 73, 71);
+    text-decoration: none;
+  }
+
+  .secondHeader {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    flex-wrap: wrap;
+    background-color: rgba(227, 221, 201, 0);
+    align-items: stretch;
+    box-shadow: 0px 0px 15px 4px grey;
+    align-content: flex-end;
+    justify-content: space-around;
+  }
+
+  .pageTitle {
+    font-size: 60px;
+    font-family: "Akvitania_Modern";
+  }
+
+  .secondHeaderNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5px;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 546px;
+  }
+
+  .secondHeaderNav a {
+    width: 90px;
+    font-weight: 400;
+  }
+
+  .btnToTheLessonsNav {
+    appearance: none;
+    background-color: #9EA857;
+    border: 2px solid #899244;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #fefefe;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 50px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 200px;
+    will-change: transform;
+  }
+
+  .btnToTheLessons:disabled {
+    pointer-events: none;
+  }
+
+  .btnToTheLessons:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+
+  .btnToTheLessons:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+}
+
+
+@media screen and (max-width:1430px) {
+  .firstHeader {
+    padding: 10px;
+    background-color: rgb(193, 201, 181);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .logo {
+    height: 30px;
+    width: 30px;
+  }
+
+  .logo:hover {
+    filter: invert(100%);
+  }
+
+  a {
+    color: rgb(0, 73, 71);
+    text-decoration: none;
+  }
+
+  .secondHeader {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    flex-wrap: wrap;
+    background-color: rgba(227, 221, 201, 0);
+    align-items: stretch;
+    box-shadow: 0px 0px 15px 4px grey;
+    align-content: flex-end;
+    justify-content: space-around;
+  }
+
+  .pageTitle {
+    font-size: 60px;
+    font-family: "Akvitania_Modern";
+  }
+
+  .secondHeaderNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5px;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 546px;
+  }
+
+  .secondHeaderNav a {
+    width: 90px;
+    font-weight: 400;
+  }
+
+  .btnToTheLessonsNav {
+    appearance: none;
+    background-color: #9EA857;
+    border: 2px solid #899244;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #fefefe;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 50px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 200px;
+    will-change: transform;
+  }
+
+  .btnToTheLessons:disabled {
+    pointer-events: none;
+  }
+
+  .btnToTheLessons:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+
+  .btnToTheLessons:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+}
+
+@media screen and (max-width:1024px) {
+  .firstHeader {
+    padding: 10px;
+    background-color: rgb(193, 201, 181);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .logo {
+    height: 25px;
+    width: 25px;
+  }
+
+  .secondHeader {
+    justify-content: space-between;
+    align-items: stretch;
+    box-shadow: 0px 0px 15px 4px grey;
+  }
+
+  .pageTitle {
+    display: block;
+    width: 300px;
+    margin-left: 50px;
+  }
+
+  .secondHeaderNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5px;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 546px;
+  }
+
+  .secondHeaderNav a {
+    width: 80px;
+  }
+
+}
+
+@media screen and (max-width:927px) {
+  .secondHeaderNav {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .firstHeader {
+    padding: 10px;
+    background-color: rgb(193, 201, 181);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+}
+
+@media screen and (max-width:620px) {
+  .firstHeader {
+    padding: 10px;
+    background-color: rgb(193, 201, 181);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .firstHeaderLink {
+    margin-right: 0px;
+  }
+
+  .logo {
+    height: 20px;
+    width: 20px;
+  }
+
+  .logo:hover {
+    filter: invert(100%);
+  }
+
+  a {
+    color: rgb(0, 73, 71);
+    text-decoration: none;
+  }
+
+  .secondHeader {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(227, 221, 201, 0);
+    align-items: stretch;
+    box-shadow: 0px 0px 15px 4px grey;
+  }
+
+  .pageTitle {
+    font-size: 60px;
+    font-family: "Akvitania_Modern";
+  }
+
+  .secondHeaderNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 355px;
+    margin-left: 60px;
+  }
+
+  .secondHeaderNav a {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width:420px) {
+  .firstHeader {
+    padding: 10px;
+    background-color: rgb(193, 201, 181);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .firstHeaderLink {
+    margin-right: 0px;
+  }
+
+  .logo {
+    height: 20px;
+    width: 20px;
+  }
+
+  .secondHeader {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(227, 221, 201, 0);
+    align-items: stretch;
+    box-shadow: 0px 0px 15px 4px grey;
+  }
+
+  .pageTitle {
+    font-size: 60px;
+    font-family: "Akvitania_Modern";
+  }
+
+  .secondHeaderNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 355px;
+    margin-left: 40px;
+  }
+
+  .secondHeaderNav a {
+    width: 80px;
+  }
+}

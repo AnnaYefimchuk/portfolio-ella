@@ -1,0 +1,120 @@
+@media screen and (min-width:1431px) {
+    .sizeBlocktestimonials {
+        margin: 0px 100px 0px 100px;
+    }
+
+    .testimonials {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonialsBlock {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .testimonialsBlockElement {
+        padding: 15px;
+        background-color: #9EA857;
+        height: 460px;
+        width: 360px;
+        border-radius: 5px;
+    }
+
+    .testimonialsBlockElement:hover {
+        background-color: #B5B758;
+    }
+
+}
+
+@media screen and (max-width:1430px) {
+
+    .sizeBlocktestimonials {
+        margin: 0px 100px 0px 100px;
+    }
+    .testimonials {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonialsBlock {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .testimonialsBlockElement {
+        padding: 15px;
+        background-color: #9EA857;
+        height: 460px;
+        width: 360px;
+        border-radius: 5px;
+    }
+
+    .testimonialsBlockElement:hover {
+        background-color: #B5B758;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .sizeBlocktestimonials {
+        margin: auto;
+    }
+
+    .testimonialsBlockElement {
+        padding: 15px;
+        background-color: #9EA857;
+        height: 460px;
+        width: 360px;
+        border-radius: 5px;
+    }
+
+    .testimonialsBlockElement:hover {
+        background-color: #B5B758;
+    }
+}
+
+@media screen and (max-width:800px) {
+   
+
+    .testimonialsBlockElement {
+        padding: 15px;
+        background-color: #9EA857;
+        height: 450px;
+        width: 350px;
+        border-radius: 5px;
+    }
+
+    .testimonialsBlockElement:hover {
+        background-color: #B5B758;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+
+}
+
+@media screen and (max-width:420px) {
+
+    .testimonialsBlockElement {
+        padding: 15px;
+        background-color: #9EA857;
+        height: 440px;
+        width: 340px;
+        border-radius: 5px;
+    }
+
+    .testimonialsBlockElement:hover {
+        background-color: #B5B758;
+    }
+}

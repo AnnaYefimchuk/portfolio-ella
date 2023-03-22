@@ -1,0 +1,444 @@
+.aboutBlock {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E3DDC9;
+    padding: 30px;
+}
+
+.aboutBlockContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    line-height: normal;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.infoBlock {
+    margin-left: 20px;
+    width: 400px;
+}
+
+.additionalInfoBlock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.additionalInfoBlockEducation,
+.additionalInfoBlockExperience,
+.additionalInfoBlockArt {
+    margin: 50px 0px;
+    padding: 15px;
+    background-color: #E3DDC9;
+    height: 285px;
+    width: 285px;
+}
+
+.additionalInfoBlockEducation:hover,
+.additionalInfoBlockExperience:hover,
+.additionalInfoBlockArt:hover {
+    background-color: #D2D3BF;
+}
+
+.btnToTheLessons2 {
+    visibility: hidden;
+}
+
+.logo1 {
+    width: 70px;
+}
+
+.linkBlock {
+    margin: 40px;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width:1024px) {
+    .logo1 {
+        width: 70px;
+    }
+    
+    .linkBlock {
+        margin: 40px;
+        display: flex;
+        gap: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .aboutBlock {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        background-color: #E3DDC9;
+        padding: 30px;
+    }
+
+    .infoBlock {
+        margin-left: 20px;
+        width: 300px;
+    }
+
+    .additionalInfoBlock {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .additionalInfoBlockEducation,
+    .additionalInfoBlockExperience,
+    .additionalInfoBlockArt {
+        margin: 30px 0px;
+        padding: 15px;
+        background-color: #E3DDC9;
+        height: 350px;
+        width: 245px;
+    }
+
+    .photoElla {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:980px) {
+    .logo1 {
+        width: 60px;
+    }
+    
+    .linkBlock {
+        margin: 40px;
+        display: flex;
+        gap: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .photoElla {
+        height: 300px;
+    }
+
+    .additionalInfoBlock {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .additionalInfoBlockEducation,
+    .additionalInfoBlockExperience,
+    .additionalInfoBlockArt {
+        margin: 30px 0px;
+        padding: 15px;
+        background-color: #E3DDC9;
+        height: 350px;
+        width: 240px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .logo1 {
+        width: 60px;
+    }
+
+    .photoElla {
+        height: 270px;
+    }
+
+    .additionalInfoBlock {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .additionalInfoBlockEducation,
+    .additionalInfoBlockExperience,
+    .additionalInfoBlockArt {
+        margin: 30px 0px;
+        padding: 15px;
+        background-color: #E3DDC9;
+        height: 380px;
+        width: 220px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .logo1 {
+        width: 70px;
+    }
+
+    .linkBlock {
+        margin: 50px;
+        display: flex;
+        gap: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .photoElla {
+        height: 300px;
+    }
+
+    .aboutBlockContent {
+        gap: 20px;
+        margin-left: 100px;
+    }
+
+    .infoBlock {
+        margin-left: 20px;
+        width: 400px;
+    }
+
+    .additionalInfoBlockEducation,
+    .additionalInfoBlockExperience {
+        margin: 20px 0px;
+        padding: 15px;
+        background-color: #E3DDC9;
+        height: 350px;
+        width: 250px;
+    }
+
+    .additionalInfoBlockArt {
+        margin-top: 0px;
+        padding: 15px;
+        background-color: #E3DDC9;
+        height: 250px;
+        width: 550px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .logo1 {
+        width: 60px;
+    }
+
+    .photoElla {
+        height: 270px;
+    }
+
+    .additionalInfoBlock {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .additionalInfoBlockEducation,
+    .additionalInfoBlockExperience,
+    .additionalInfoBlockArt {
+        margin: 30px 0px;
+        padding: 15px;
+        background-color: #E3DDC9;
+        height: 380px;
+        width: 220px;
+    }
+}
+
+@media screen and (max-width:816px) {
+    .logo1 {
+        width: 70px;
+    }
+
+    .linkBlock {
+        margin: 50px;
+        display: flex;
+        gap: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .photoElla {
+        height: 220px;
+    }
+
+    .aboutBlockContent {
+        gap: 20px;
+        margin: 30px 0px -10px 0px;
+    }
+
+    .infoBlock {
+        margin: -25px 0px -10px 0px;
+        width: 280px;
+    }
+
+    .additionalInfoBlockEducation,
+    .additionalInfoBlockExperience {
+        margin: 20px 0px;
+        padding: 15px;
+        background-color: #E3DDC9;
+        height: 350px;
+        width: 250px;
+    }
+
+    .additionalInfoBlockArt {
+        margin-top: 0px;
+        padding: 15px;
+        background-color: #E3DDC9;
+        height: 250px;
+        width: 550px;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+
+    .linkBlock {
+        margin: 80px;
+    
+    }
+
+    .aboutBlockContent {
+        gap: 20px;
+        margin-left: 45px;
+    }
+
+    .additionalInfoBlockEducation,
+    .additionalInfoBlockExperience,
+    .additionalInfoBlockArt {
+        margin-top: 20px;
+        height: 350px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .photoElla {
+        height: 260px;
+    }
+
+    .aboutBlockContent {
+        margin-left: 35px;
+    }
+
+    .infoBlock {
+        margin-left: 10px;
+        width: 300px;
+    }
+
+    .additionalInfoBlockEducation,
+    .additionalInfoBlockExperience,
+    .additionalInfoBlockArt {
+        margin: 40px 0px 0px 0px;
+        height: 360px;
+        width: 340px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .logo1 {
+        width: 70px;
+    }
+
+    .linkBlock {
+        margin: 50px;
+        display: flex;
+        gap: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .photoElla {
+        height: 230px;
+    }
+
+    .aboutBlockContent {
+        margin-left: 10px;
+    }
+
+    .infoBlock {
+        margin-left: 10px;
+        width: 300px;
+    }
+
+    .additionalInfoBlockEducation,
+    .additionalInfoBlockExperience,
+    .additionalInfoBlockArt {
+        margin: 20px -20px 0px -25px;
+        height: 360px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .logo1 {
+        width: 65px;
+    }
+
+    .linkBlock {
+        margin: 50px;
+        display: flex;
+        gap: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .photoElla {
+        height: 200px;
+    }
+
+    .aboutBlockContent {
+        margin-left: 10px;
+    }
+
+    .infoBlock {
+        margin-left: 10px;
+        width: 300px;
+    }
+
+    .additionalInfoBlockEducation,
+    .additionalInfoBlockExperience,
+    .additionalInfoBlockArt {
+        margin: 20px -20px 0px -25px;
+        height: 360px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .photoElla {
+        height: 160px;
+    }
+
+    .aboutBlockContent {
+        gap: 20px;
+        margin-left: 35px;
+    }
+
+    .infoBlock {
+        margin-left: 10px;
+        width: 250px;
+    }
+
+    .additionalInfoBlock {
+        gap: 30px;
+    }
+
+    .additionalInfoBlockEducation,
+    .additionalInfoBlockExperience,
+    .additionalInfoBlockArt {
+        margin: 20px -20px 0px -60px;
+        height: 350px;
+        width: 280px;
+    }
+}

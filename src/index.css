@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Akvitania_Modern";
+  src: local(" Akvitania_Modernan "),
+    url("./img/Akvitania_Modern.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Peace_Sans";
+  src: local("Peace_Sans"),
+    url("./img/Peace_Sans.otf") format("otf");
+  font-weight: bold;
+}
