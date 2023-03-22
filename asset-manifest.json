@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio-ella/static/css/main.fb9a31be.css",
+    "main.js": "/portfolio-ella/static/js/main.e1d1fbb3.js",
+    "static/js/787.85bc9007.chunk.js": "/portfolio-ella/static/js/787.85bc9007.chunk.js",
+    "static/media/headerPhoto.png": "/portfolio-ella/static/media/headerPhoto.7900a7aa9dbbdbcfd86d.png",
+    "static/media/smallSize.png": "/portfolio-ella/static/media/smallSize.9ed22717ec6420af1b27.png",
+    "static/media/group.png": "/portfolio-ella/static/media/group.3a4c9f502df612babaac.png",
+    "static/media/online.png": "/portfolio-ella/static/media/online.bc43ae0414a4353b80ab.png",
+    "static/media/couple.png": "/portfolio-ella/static/media/couple.f654a50dbf0893f5a45a.png",
+    "static/media/solo.png": "/portfolio-ella/static/media/solo.99471453dfe8990ae935.png",
+    "static/media/Akvitania_Modern.ttf": "/portfolio-ella/static/media/Akvitania_Modern.6fb4d6a6ee6665d37581.ttf",
+    "static/media/Peace_Sans.otf": "/portfolio-ella/static/media/Peace_Sans.f59a8de8357e6c25d47c.otf",
+    "static/media/IMG_6428.JPG": "/portfolio-ella/static/media/IMG_6428.f77828284f932b7be93a.JPG",
+    "index.html": "/portfolio-ella/index.html",
+    "main.fb9a31be.css.map": "/portfolio-ella/static/css/main.fb9a31be.css.map",
+    "main.e1d1fbb3.js.map": "/portfolio-ella/static/js/main.e1d1fbb3.js.map",
+    "787.85bc9007.chunk.js.map": "/portfolio-ella/static/js/787.85bc9007.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb9a31be.css",
+    "static/js/main.e1d1fbb3.js"
+  ]
+}
