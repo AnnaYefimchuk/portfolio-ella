@@ -11,7 +11,7 @@ export function Contact() {
         email: "",
         message: ""
     })
-    
+
 
     const handleChangeName = e => {
         setData(existingValues => ({
@@ -75,9 +75,11 @@ export function Contact() {
         <div className="contactBlock">
             <div className='contactInfoLeft'>
                 <h1>Зв'яжіться зі мною</h1>
-                <p className='contactInfoLeftP'>Якщо у вас є будь-які запитання, не соромтеся зв’язатися зі мною, і я зв’яжусь з вами якомога швидше.</p>
-                <table>
+                <table className='contactInfoLeftTable'>
                     <tbody>
+                        <tr>
+                            <td colSpan="2"> Якщо у вас є будь-які запитання, не соромтеся зв’язатися зі мною, і я зв’яжусь з вами якомога швидше.</td>
+                        </tr>
                         <tr>
                             <th> Години:</th>
                             <td> Понеділок, вівторок, четвер, субота</td>

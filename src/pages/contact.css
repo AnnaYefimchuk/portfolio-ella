@@ -1,25 +1,20 @@
 @media screen and (min-width:1025px) {
-    .contactInfoLeftP {
-        width: 400px;
+    .contactBlock {
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        margin: 2% 30% 8% 30%;
+        justify-content: center;
+        gap: 45px;
     }
 
     .contactInfoLeft {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        width: 50%;
     }
 
-    .contactBlock {
-        display: flex;
-        margin: 30px 30px 90px 30px;
-        justify-content: center;
-        align-items: flex-start;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 30px;
+    .contactInfoLeftTable {
+        width: 50%;
     }
 
     .contactInfoRight {
@@ -99,28 +94,21 @@
     }
 }
 
-@media screen and (max-width:1024px) {
-    .contactInfoLeftP {
-        width: 370px;
+@media screen and (max-width:1345px) {
+    .contactBlock {
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        margin: 2% 30% 8% 30%;
+        gap: 40px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .contactInfoLeft {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-    }
-
-    .contactBlock {
-        display: flex;
-        margin: 30px;
-        justify-content: center;
-        align-items: flex-start;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 30px;
+        width: 65%;
     }
 
     .contactInfoRight {
@@ -197,33 +185,71 @@
     .btnToTheLessons:active {
         box-shadow: none;
         transform: translateY(0);
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+
+    .contactInfoLeft {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .contactBlock {
+        display: flex;
+        margin: 3% 20% 8% 20%;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .contactInfoRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        background-color: #D2D3BF;
+        border-radius: 5px;
+        padding: 15px;
+    }
+
+    .contactInfoRight input,
+    textarea {
+        margin: 10px;
+        padding: 10px;
+        width: 250px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        font-family: inherit;
+    }
+
+    .contactInfoRigrtP {
+        margin-left: 15px;
+        padding: 0px;
+        width: 250px;
+        font-family: inherit;
     }
 }
 
 
 @media screen and (max-width:800px) {
 
-    .contactInfoLeftP {
-        width: 400px;
-    }
-
-    .contactInfoLeft,
-    .contactInfoLeftP {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .contactBlock {
+        margin: 3% 15% 8% 15%;
     }
 }
 
 @media screen and (max-width:420px) {
-    .contactInfoLeftP {
-        width: 340px;
+    .contactBlock {
+        margin: 3% 15% 20% 20%;
     }
 
-    .contactInfoLeft,
-    .contactInfoLeftP {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .contactInfoRight {
+        padding: 2px;
     }
 }

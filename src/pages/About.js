@@ -10,7 +10,7 @@ export default function AboutAuthor(props) {
 
     const navigate = useNavigate();
     const aboutUser = () => {
-        navigate('/about');
+        navigate('/about'); 
     }
 
     return (
@@ -33,7 +33,7 @@ export default function AboutAuthor(props) {
 
 export function About() {
     return (
-        <>
+        <div className='about'>
             <AboutAuthor name="Елла Єфімчук" classNames="btnToTheLessons2" />
 
             <div className="additionalInfoBlock" >
@@ -66,6 +66,6 @@ export function About() {
                 </div>
 
             </div>
-        </>
+        </div>
     )
 }
